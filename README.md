@@ -24,3 +24,18 @@ go run main.go problems.csv 3
 ```
 
 ## Build your own questions .csv file
+As long as the established format is followed, any kind of questions can be asked.
+
+The format is as follows:
+```
+  __[question]__,__[answer]__
+```
+
+Here are some examples:
+
+```
+  What color is the sky,Blue
+  What's 1 + 2,3
+  What year did the WWII end,1945
+  10/2,5
+```
