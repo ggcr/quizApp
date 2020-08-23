@@ -19,7 +19,7 @@ Usage of /var/folders/n8/0wy1p97t54hhz_03j00gn/T/go-build48019/exe/main:
   -timer int
     	seconds to answer each question (default 2)
 ```
-And now run the program with your own __problems.csv__ or the default one and the __seconds limit for each question__ (in this case, 3):
+And now run the program with your own __problems.csv__ and the __seconds limit for each question__ (in this case, 3):
 ```bash
 go run main.go problems.csv 3
 ```
