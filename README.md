@@ -22,3 +22,5 @@ And now run the program with your own __problems.csv__ and the __seconds limit f
 ```bash
 go run main.go problems.csv 3
 ```
+
+## Build your own questions .csv file
