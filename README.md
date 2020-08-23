@@ -6,21 +6,21 @@ This was made as an introductory example program for _go routines_ and _channels
 ## Usage
 To run the program follow the steps below:
 ```bash
-git clone https://github.com/1063551/quizApp.git
-cd quizApp/
+  git clone https://github.com/1063551/quizApp.git
+  cd quizApp/
 ```
 
 To see the valid format of the arguments:
 ```bash
-go run main.go -h
-  -csv string
-    	valid format is [question], [answer] (default "problems.csv")
-  -timer int
-    	seconds to answer each question (default 2)
+  go run main.go -h
+    -csv string
+        valid format is [question], [answer] (default "problems.csv")
+    -timer int
+        seconds to answer each question (default 2)
 ```
 And now run the program with your own __problems.csv__ and the __seconds limit for each question__ (in this case, 3):
 ```bash
-go run main.go problems.csv 3
+  go run main.go problems.csv 3
 ```
 
 ## Build your own questions .csv file
@@ -28,7 +28,7 @@ As long as the established format is followed, any kind of questions can be aske
 
 The format is as follows:
 ```
-  __[question]__,__[answer]__
+  [question],[answer]
 ```
 
 Here are some examples:
