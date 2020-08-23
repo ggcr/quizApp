@@ -5,13 +5,13 @@ This was made as an introductory example program for go routines and channels.
 
 ## Usage
 To run the program follow the steps below:
-```sh
+```bash
 git clone https://github.com/1063551/quizApp.git
 cd quizApp/
 ```
 
 To see the valid format of the arguments:
-```sh
+```bash
 go run main.go -h
 Usage of /var/folders/n8/0wy1p97t54hhz_03j00gn/T/go-build48019/exe/main:
   -csv string
@@ -20,6 +20,6 @@ Usage of /var/folders/n8/0wy1p97t54hhz_03j00gn/T/go-build48019/exe/main:
     	seconds to answer each question (default 2)
 ```
 And now run the program with your own problems.csv or the default one:
-```sh
+```go
 go run main.go problems.csv 3
 ```
