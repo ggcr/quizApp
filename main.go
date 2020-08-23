@@ -45,7 +45,7 @@ func askQ(quizSol string, question string, numQ int, sec int) bool {
 
 	// We print the question and input the user response
 	reader := bufio.NewReader(os.Stdin)
-	fmt.Printf("Question #%d: %s = \n", numQ, question)
+	fmt.Printf("Question #%d: %s? \n", numQ, question)
 
 	go func() {
 		text, _ = reader.ReadString('\n')
@@ -106,5 +106,6 @@ func main() {
 	}
 
 	// We print out the final score
-	fmt.Printf("%d/%d\n", score, total)
+	fmt.Println("\n~~~~~~~FINAL SCORE~~~~~~~~")
+	fmt.Printf("  %d OF %d CORRECT ANSWERS\n\n", score, total)
 }
