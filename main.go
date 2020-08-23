@@ -71,7 +71,7 @@ func main() {
 	// We check for a valid .csv file format
 	csvFilename := flag.String("csv", "problems.csv", "valid format is [question], [answer]")
 	// We check for a valid seconds arg format
-	secArg := flag.Int("s", 2, "seconds to answer each question")
+	secArg := flag.Int("timer", 2, "seconds to answer each question")
 
 	flag.Parse()
 	_ = csvFilename
