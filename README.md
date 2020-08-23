@@ -13,7 +13,6 @@ cd quizApp/
 To see the valid format of the arguments:
 ```bash
 go run main.go -h
-Usage of /var/folders/n8/0wy1p97t54hhz_03j00gn/T/go-build48019/exe/main:
   -csv string
     	valid format is [question], [answer] (default "problems.csv")
   -timer int
